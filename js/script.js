@@ -80,6 +80,7 @@ function keyUpHandler(e) {
 function Start() {
   spacePressed = true;
   document.getElementById('start').style.display='none';
+  document.getElementById('info').style.display='none';
   document.getElementById('left').style.display='';
   document.getElementById('right').style.display='';
 }
