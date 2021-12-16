@@ -77,7 +77,20 @@ function keyUpHandler(e) {
     spacePressed = false;
   }
 }
-
+function Start() {
+  spacePressed = true;
+  document.getElementById('start').style.display='none';
+  document.getElementById('left').style.display='';
+  document.getElementById('right').style.display='';
+}
+function left() {
+  leftPressed = true;
+  rightPressed = false;
+}
+function rigth() {
+  rightPressed = true;
+  leftPressed = false;
+}
 function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   drawSnow();
