@@ -38,3 +38,6 @@ body { background:rgb(8,8,58);
 	color: white; /* 字体颜色 */
 	font-size: 17px; /* 字体大小 */
 }
+.font {
+	font-size: 25px;color: white; /* 字体颜色 */;
+}
