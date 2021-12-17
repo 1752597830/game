@@ -6,7 +6,6 @@ redGiftImage = document.getElementById("red_gift");
 blueGiftImage = document.getElementById("blue_gift");
 bombImage = document.getElementById("bomb");
 bangImage = document.getElementById("bang");
-
 var x = canvas.width/2;
 var y = canvas.height-30;
 var dx = 2;
