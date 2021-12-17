@@ -119,8 +119,8 @@ function titleScreen() {
   ctx.fillText(`圣诞抓礼物!`, 0, 50);
   ctx.fillStyle = "yellow"; 
 
-  ctx.font = "30px Arial";
-  ctx.fillText(`请按空格键开始!`, 65, 140);
+//   ctx.font = "30px Arial";
+//   ctx.fillText(`请按空格键开始!`, 65, 140);
 
   var highScore = getHighScore();
   if (highScore != -1) ctx.fillText(`High Score: ${highScore}`, 90, 220);
